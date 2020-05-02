@@ -15,7 +15,7 @@ movieList.addEventListener("submit", function (e) {
                     <h5 class="card-title">${currentMovie.Title}</h5>
                     <p class="card-text">${currentMovie.Year}</p>
                     <a href="#" class="btn btn-primary" onclick="saveToWatchlist('${currentMovie.imdbID}')" >Add to Favorite</a>
-                    <a href='#/' id='trig1'>HOVER</a>
+                    <a href='#/' id='trig1'>Trailer</a>
                     <iframe id='ifrm1' name='ifrm1' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" src='${currentMovie.Intro}'></iframe>
                 </div>    
             </div>
